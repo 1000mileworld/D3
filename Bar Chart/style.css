@@ -1,0 +1,30 @@
+.wrapper {
+    text-align: center;  
+  }
+  
+  .bar {
+    fill: #4bb6ff;
+  }
+  
+  .bar:hover {
+    fill: white;
+  }
+  
+  .x-label {
+    transform: translate(400px, 480px);
+    font-size: 20px;
+  }
+  
+  .y-label {
+    transform: translate(15px,300px) rotate(-90deg);
+    font-size: 20px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    display: none;
+    opacity: .8;
+    background: #fcba03;
+    padding: 5px;
+    text-align: center;
+  }
