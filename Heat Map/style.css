@@ -1,0 +1,16 @@
+.wrapper {
+    text-align: center;  
+  }
+  
+  #tooltip {
+    position: absolute;
+    display: none;
+    opacity: .8;
+    background: #3a34eb;
+    color: white;
+    padding: 5px;
+  }
+  
+  .highlight {
+    fill: white;
+  }
