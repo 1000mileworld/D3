@@ -114,6 +114,7 @@ function showTip(e) {
   const x = e.pageX;
   const y = e.pageY;
   const rect = e.target;
+  rect.style.opacity=0.2;
   
   const year = rect.getAttribute("data-year");
   const month = rect.getAttribute("data-month");
@@ -131,6 +132,8 @@ function showTip(e) {
   tooltip.innerHTML = month_name+", "+year+"<br>"+"Variance: "+temp+"&#8451;";
 }
 
-function hideTip() {
+function hideTip(e) {
   tooltip.style.setProperty("display", "none");
+  const rect = e.target;
+  rect.style.opacity=1;
 }
