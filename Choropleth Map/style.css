@@ -1,0 +1,11 @@
+.wrapper {
+    text-align: center;  
+  }
+  
+  #tooltip {
+    position: absolute;
+    display: none;
+    opacity: 1;
+    background: #f0e5a1;
+    padding: 5px;
+  }
