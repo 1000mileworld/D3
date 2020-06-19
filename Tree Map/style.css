@@ -1,0 +1,22 @@
+.wrapper {
+    text-align: center;  
+  }
+  
+  svg {
+    font: 10px sans-serif;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  
+  .tile-text{
+    cursor: default;
+  }
+  
+  #tooltip {
+    position: absolute;
+    display: none;
+    opacity: 1;
+    background: #f0e5a1;
+    padding: 5px;
+  }
